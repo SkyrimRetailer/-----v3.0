@@ -6,6 +6,8 @@ from container import Container
 from message import Message
 import time
 
+#将此项目上传至GitHub
+
 def findFile(path, pathlist):
     # 运用递归，寻找以.xlsx和.xls文件的path，并存储到pathlist列表中
     if os.path.isfile(path):
